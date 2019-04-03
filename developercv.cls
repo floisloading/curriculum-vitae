@@ -212,7 +212,7 @@
 
 \newcommand\blfootnote[1]{%
   \begingroup
-  \renewcommand\thefootnote{}\footnote{#1}%
+  \renewcommand\thefootnote{}\footnote{\centering #1}%
   \addtocounter{footnote}{-1}%
   \endgroup
 }
