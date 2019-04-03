@@ -198,7 +198,8 @@
 	&\parbox[t]{0.825\textwidth}{% 82.5% of the text width of the page
 		\textbf{#2}% Entry heading text
 		\hfill% Horizontal whitespace
-		{\footnotesize \textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text
+    {\footnotesize \textbf{\textcolor{black}{#3}}}% Right-aligned entry qualifier text
+    \smallskip
 		#4 % Entry description text
 	}\\\\}
 
