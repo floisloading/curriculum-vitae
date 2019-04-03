@@ -204,3 +204,15 @@
 
 % Command to output a separator slash between lists, e.g. '  /  '
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
+
+%----------------------------------------------------------------------------------------
+%	FOOTNOTE WITHOUT MARKER
+%----------------------------------------------------------------------------------------
+% https://tex.stackexchange.com/questions/30720/footnote-without-a-marker
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
