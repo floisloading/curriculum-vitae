@@ -210,6 +210,7 @@
 %----------------------------------------------------------------------------------------
 % https://tex.stackexchange.com/questions/30720/footnote-without-a-marker
 
+\renewcommand*\footnoterule{}
 \newcommand\blfootnote[1]{%
   \begingroup
   \renewcommand\thefootnote{}\footnote{\centering #1}%
