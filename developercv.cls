@@ -219,3 +219,7 @@
   \addtocounter{footnote}{-1}%
   \endgroup
 }
+
+% https://tex.stackexchange.com/questions/234942/whats-the-best-way-to-make-a-heart-butt-in-latex
+\usepackage{graphicx}
+\newcommand{\heart}{\ensuremath\heartsuit}
