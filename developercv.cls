@@ -208,9 +208,11 @@
 %----------------------------------------------------------------------------------------
 %	FOOTNOTE WITHOUT MARKER
 %----------------------------------------------------------------------------------------
-% https://tex.stackexchange.com/questions/30720/footnote-without-a-marker
 
+% https://tex.stackexchange.com/questions/3592/footnote-separator
 \renewcommand*\footnoterule{}
+
+% https://tex.stackexchange.com/questions/30720/footnote-without-a-marker
 \newcommand\blfootnote[1]{%
   \begingroup
   \renewcommand\thefootnote{}\footnote{\centering #1}%
