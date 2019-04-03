@@ -199,7 +199,6 @@
 		\textbf{#2}% Entry heading text
 		\hfill% Horizontal whitespace
     {\footnotesize \textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text
-    \smallskip
 		#4 % Entry description text
 	}\\\\}
 
