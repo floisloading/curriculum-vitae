@@ -42,6 +42,8 @@
 
 \usepackage{moresize} % Provides more font size commands (\HUGE and \ssmall)
 
+\usepackage[normalem]{ulem} % https://tex.stackexchange.com/a/13382
+
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT
 %----------------------------------------------------------------------------------------
