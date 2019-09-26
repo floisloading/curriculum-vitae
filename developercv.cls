@@ -156,7 +156,7 @@
 		\foreach \p/\t in {#1} {
 			\addtocounter{a}{1}
 			\bubble{\thea/2}{\theb}{\p/25}{\t}{1\p0}
-      \hspace{0.2cm}
+      \hspace{0.4cm}
 		}
 	\end{tikzpicture}
 }
