@@ -152,11 +152,10 @@
 	\setcounter{a}{0}
 	\setcounter{c}{150}
 	
-	\begin{tikzpicture}[scale=3]
+	\begin{tikzpicture}[scale=3, node distance=1cm]
 		\foreach \p/\t in {#1} {
 			\addtocounter{a}{1}
 			\bubble{\thea/2}{\theb}{\p/25}{\t}{1\p0}
-      \hspace{0.4cm}
 		}
 	\end{tikzpicture}
 }
