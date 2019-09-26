@@ -22,6 +22,10 @@
 
 \documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
 
+\newenvironment{itquote}
+{\begin{quote}\itshape}
+{\end{quote}}
+
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -58,7 +62,7 @@
 	\href{https://twitter.com/@frot\_io}{\icon{Twitter}{12}{@frot\_io}}\\
 \end{minipage}
 
-\vspace{0.5cm}
+\vspace{0.4cm}
 
 
 %----------------------------------------------------------------------------------------
@@ -69,15 +73,13 @@
 
 \begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-  I am a professional technology consultant, trainer and % \href{https://www.remoteonly.org/}{\uline{remote-first}} TODO: write blopost why remote-first
-  web-developer, curious
-  about staying up to date with the latest tech-stuff.
-  I think and act agile because I truly believe in the power of  intrinsic motivation in a self-organised team.
-  Let's build awesome products together!
-  \begin{quotation} % TODO: neither emph, nor textit nor itshape are working...
-    \itshape{``We are what we repeatedly do. Excellence, then, is not an act, but a habit.''} -- 
+  I am a senior \textbf{technology consultant} and coach.
+  My experience with state-of-the-art web-applications will empower your team to build awesome products!
+  I think and act agile because I truly believe in the power of intrinsic motivation.
+  \begin{itquote} 
+    ``We are what we repeatedly do. Excellence, then, is not an act, but a habit.'' -- 
     \href{https://medium.com/the-mission/my-favourite-quote-of-all-time-is-a-misattribution-66356f22843d}{Will Durant}\\
-  \end{quotation}
+  \end{itquote}
 \end{minipage}
 \hfill % Whitespace between
 \begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
@@ -109,7 +111,7 @@
 		{\href{https://cloud.aboutyou.com/}{ABOUT YOU GmbH}}
     {
       Implementing an Agent Interface for Customer Relationship Management for the ABOUT YOU Cloud.\\
-      \texttt{VueJS}\slashsep\texttt{Bootstrap}\slashsep\texttt{Vuex}\slashsep
+      \texttt{VueJS}\slashsep\texttt{Bootstrap}\slashsep\texttt{Vuex}\slashsep\texttt{React Hooks}\slashsep\texttt{Nuxt.js}
     }
 	\entry
 		{12/2018 -- 6/2019\\\footnotesize{part time}}
